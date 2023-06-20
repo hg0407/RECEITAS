@@ -1,0 +1,92 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f89854;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    color: #333333;
+  }
+  h2{
+    background-color: #f89854;
+    padding: 10px;
+    
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .recipe {
+    margin-bottom: 30px;
+  }
+  
+  .recipe h3 {
+    margin-top: 0;
+  }
+  
+  .recipe img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .recipe h4 {
+    margin: 10px 0;
+  }
+  
+  .recipe ul,
+  .recipe ol {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  footer {
+    background-color: #f89854;
+    padding: 20px;
+    text-align: center;
+  }
+  .botao1{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #f89854;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  .botao1:hover, .botao1:focus, .botao1:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+  }
